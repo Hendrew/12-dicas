@@ -1,0 +1,15 @@
+
+  # Delegate
+
+    class Profile < ApplicationRecord
+      belongs_to :user
+
+      delegate :email, to: :user
+
+      # def email
+      #  user.email
+      # end
+    end
+
+
+    @profile.email

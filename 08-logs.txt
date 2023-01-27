@@ -1,0 +1,8 @@
+
+  # Logs
+
+    ls -lh log
+
+    rails log:clear
+
+    ls -lh log

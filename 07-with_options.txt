@@ -1,0 +1,15 @@
+
+  # with_options
+  class Product < ApplicationRecord
+    has_many :customers, dependent: :delete_all
+    has_many :products, dependent: :destroy
+    has_many :invoices, dependent: :destroy
+  end
+
+  =======================================
+
+  with_options dependent: :destroy do
+    has_many :customers
+    has_many :products
+    has_many :invoices
+  end

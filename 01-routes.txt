@@ -1,0 +1,8 @@
+
+  # Conjunto de rotas separadas por arquivos
+
+    draw(:admin)
+    draw(:store)
+
+    routes/admin.rb
+    routes/store.rb

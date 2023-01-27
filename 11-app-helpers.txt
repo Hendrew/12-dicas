@@ -1,0 +1,6 @@
+
+  # No console
+
+    app.backoffice_root_path
+
+    helper.number_to_currency

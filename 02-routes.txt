@@ -1,0 +1,10 @@
+
+  # Separar módulos por namespace
+
+    namespace :admin do
+      root 'home#index'
+    end
+
+    namespace :store do
+      root 'home#index'
+    end

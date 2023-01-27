@@ -1,0 +1,6 @@
+
+  # Acesse o último resultado avaliado
+
+    Article.first
+
+    post = _

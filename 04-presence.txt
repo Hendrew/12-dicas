@@ -1,0 +1,6 @@
+
+  # Presence
+
+    object.present? ? object : nil
+
+    object.presence

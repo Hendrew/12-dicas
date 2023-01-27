@@ -1,0 +1,8 @@
+
+  # Presence In
+
+    sizes = [:small, :medium, :big]
+
+    sizes.include?(:medium) ? :medium : nil
+
+    :medium.presence_in(sizes)

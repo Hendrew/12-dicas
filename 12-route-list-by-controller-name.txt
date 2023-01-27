@@ -1,0 +1,4 @@
+
+  # Listagem de tota baseada no nome do controller
+
+    rails routes -c users
